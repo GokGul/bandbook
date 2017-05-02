@@ -77,7 +77,6 @@ C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\bin\Microsoft.Owin.Securi
 C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\obj\Debug\Bandbook.csprojResolveAssemblyReference.cache
 C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\obj\Debug\Bandbook.dll
 C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\obj\Debug\Bandbook.pdb
 C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\obj\Debug\Bandbook.Migrations.InitialModel.resources
