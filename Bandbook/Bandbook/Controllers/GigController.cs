@@ -32,7 +32,7 @@ namespace Bandbook.Controllers
             var gig = new Gig
             {
                 ArtistId = User.Identity.GetUserId(),
-                DateTime = DateTime.Parse(string.Format("{0} {1}", b.Date, b.Time)),
+                DateTime = b.DateTime,
                 GenreId = b.Genre,
                 Place = b.Place
             };
