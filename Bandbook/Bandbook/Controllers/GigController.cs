@@ -1,5 +1,7 @@
 ﻿using Bandbook.Models;
 using Bandbook.ViewModels;
+using Microsoft.AspNet.Identity;
+using System;
 using System.Linq;
 using System.Web.Mvc;
 
@@ -12,7 +14,8 @@ namespace Bandbook.Controllers
         {
             context = new ApplicationDbContext();
         }
-        // GET: Gig
+
+        [Authorize]
         public ActionResult Create()
         {
             var viewModel = new BandFormViewModel
@@ -20,6 +23,24 @@ namespace Bandbook.Controllers
                 Genres = context.Genres.ToList()
             };
             return View(viewModel);
+        }
+
+        [Authorize]
+        [HttpPost]
+        public ActionResult Create(BandFormViewModel b)
+        {
+            var gig = new Gig
+            {
+                ArtistId = User.Identity.GetUserId(),
+                DateTime = DateTime.Parse(string.Format("{0} {1}", b.Date, b.Time)),
+                GenreId = b.Genre,
+                Place = b.Place
+            };
+
+            context.Gigs.Add(gig);
+            context.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
         }
     }
 }

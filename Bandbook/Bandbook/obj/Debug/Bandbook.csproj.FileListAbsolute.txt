@@ -84,3 +84,5 @@ C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\obj\Debug\Bandbook.csproj
 C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\obj\Debug\Bandbook.Migrations.CreateGigTable.resources
 C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\obj\Debug\Bandbook.Migrations.AddGenreAndOverrideConventionsGigAndGenre.resources
 C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\obj\Debug\Bandbook.Migrations.PopulateGenresTable.resources
+C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\obj\Debug\Bandbook.csprojResolveAssemblyReference.cache
+C:\Users\gokha\Source\Repos\bandbook\Bandbook\Bandbook\obj\Debug\Bandbook.Migrations.AddForeignKeyToGig.resources
